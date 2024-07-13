@@ -261,9 +261,22 @@ footer .btn-primary {
 @media screen and (max-width: 576px) {
   .skills-container,
   .resume-container,
+  .banner,
+  .banner-content,
   footer,
-  .about-items {
+  .about-items,
+  nav,
+  nav > ul {
     flex-direction: column;
+  }
+  .banner {
+    margin: 1rem;
+  }
+  .header {
+    background: none;
+  }
+  .banner-profile-pic {
+    width: 100%;
   }
   footer {
     box-sizing: border-box;
