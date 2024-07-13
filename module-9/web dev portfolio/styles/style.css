@@ -261,7 +261,8 @@ footer .btn-primary {
 @media screen and (max-width: 576px) {
   .skills-container,
   .resume-container,
-  footer {
+  footer,
+  .about-items {
     flex-direction: column;
   }
   footer {
