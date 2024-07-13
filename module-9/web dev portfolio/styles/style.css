@@ -254,9 +254,6 @@ footer .btn-primary {
 }
 
 /* responsive media query */
-.hide {
-  display: none;
-}
 
 @media screen and (max-width: 576px) {
   .skills-container,
@@ -289,5 +286,12 @@ footer .btn-primary {
   .footer-column form input,
   .footer-column form textarea {
     width: 80%;
+  }
+}
+
+/* table specific media query */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
   }
 }
