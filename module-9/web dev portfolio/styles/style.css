@@ -257,3 +257,23 @@ footer .btn-primary {
 .hide {
   display: none;
 }
+
+@media screen and (max-width: 576px) {
+  .skills-container,
+  .resume-container,
+  footer {
+    flex-direction: column;
+  }
+  footer {
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 100vw;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .footer-column form input,
+  .footer-column form textarea {
+    width: 80%;
+  }
+}
