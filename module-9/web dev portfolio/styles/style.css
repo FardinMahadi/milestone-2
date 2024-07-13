@@ -252,3 +252,8 @@ footer textarea {
 footer .btn-primary {
   width: auto;
 }
+
+/* responsive media query */
+.hide {
+  display: none;
+}
