@@ -25,11 +25,22 @@
           left: 0;
         }
         25% {
+          top: calc(100% - 50px);
           left: calc(25% - 50px);
+          background: red;
         }
         50% {
+          top: 0;
+          left: calc(50% - 50px);
+        }
+        75% {
+          top: calc(100% - 50px);
+          left: calc(75% - 50px);
+          background: red;
         }
         100% {
+          top: 0;
+          left: calc(100% - 50px);
         }
       }
       .stage {
@@ -44,8 +55,8 @@
         border-radius: 50%;
         background-color: yellow;
         position: relative;
-        /* animation: ping-pong 3s ease-in-out 1s infinite alternate; */
-        animation: bounce 3s ease-in-out 0 infinite alternate;
+        animation: ping-pong 3s ease-in-out 1s infinite alternate;
+        animation: bounce 3s linear 2s infinite alternate;
       }
     </style>
   </head>
